@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+span {
+    color: #faebd7;
+}
+li{
+  width: 200px;
+  height: 300px;
+  padding: 5px;
+  background-color: #600275;
+}
+h3{
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #faebd7;
+    text-align: center;
+}
+p{
+    padding-top: 0;
+    margin-bottom: 10px;
+    color: #faebd7;
+    text-align: center;
+}
